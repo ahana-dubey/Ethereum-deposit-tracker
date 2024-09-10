@@ -11,11 +11,8 @@ The Ethereum Deposit Tracker is a Python application designed to monitor and rec
 3. [Setup](#setup)
 4. [Configuration](#configuration)
 5. [Usage](#usage)
-6. [Optional Features](#optional-features)
-7. [Documentation](#documentation)
-8. [Error Handling](#error-handling)
-9. [Troubleshooting](#troubleshooting)
-10. [License](#license)
+6. [Error Handling](#error-handling)
+7. [Troubleshooting](#troubleshooting)
 
 ## Features
 
@@ -48,12 +45,6 @@ The Ethereum Deposit Tracker is a Python application designed to monitor and rec
    pip install -r requirements.txt
    ```
 
-   Create a `requirements.txt` file with the following content:
-
-   ```
-   web3
-   python-telegram-bot
-   ```
 
 ## Configuration
 
@@ -85,9 +76,6 @@ The Ethereum Deposit Tracker is a Python application designed to monitor and rec
    python tracker.py
    ```
 
-2. **Monitoring Logs:**
-
-   The script will log deposit details and errors to `tracker.log`. You can monitor this file to review the tracked deposits and any issues encountered.
 
 ## Optional Features
 
@@ -108,7 +96,6 @@ The Ethereum Deposit Tracker is a Python application designed to monitor and rec
 
   - `tracker.py`: Main script to connect to Ethereum, track deposits, and log data.
   - `logging_config.py`: Configures logging settings.
-  - `telegram_notifications.py`: Handles sending Telegram notifications.
 
 - **API Endpoints:**
 
@@ -141,10 +128,3 @@ The Ethereum Deposit Tracker is a Python application designed to monitor and rec
    - Ensure the Beacon Deposit Contract address is correct.
    - Check for any issues with the Ethereum RPC connection.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to copy this content into a `README.md` file in your project directory. If you need any modifications or additional information included, just let me know!
