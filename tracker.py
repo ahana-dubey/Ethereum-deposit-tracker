@@ -3,7 +3,7 @@ from telegram import Bot
 import time
 import logging
 
-alchemy_url = "https://eth-mainnet.g.alchemy.com/v2/0n6VH4ZGELVSyXYwRHj-hPv5M3JEwv39"
+alchemy_url = "https://eth-mainnet.g.alchemy.com/v2/0n6xxxxxxxxXYwRHj-hPvxxxxxxv39"
 
 web3 = Web3(Web3.HTTPProvider(alchemy_url))
 
@@ -88,8 +88,8 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-TELEGRAM_TOKEN = '7360516117:AAFklcIuvFvxMHI-rX4394aO7kyHcF55qfY'
-CHAT_ID = '1347905516'
+TELEGRAM_TOKEN = '7xxxxxxx17:AxxxxxxxxxxMHI-rX4xxxxxxxxxxxx5qfY'
+CHAT_ID = '13xxxxxx6'
 
 # Initialize the bot
 bot = Bot(token=TELEGRAM_TOKEN)
